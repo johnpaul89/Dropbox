@@ -1,0 +1,69 @@
+h3{
+  font-size: 18px;
+  text-align: center;
+}
+#onclick{
+  padding: 3px;
+  color: green;
+  cursor: pointer;
+  padding: 5px 5px 5px 15px;
+  width: 70px;
+  color: white;
+  background-color: #123456;
+  border-radius: 3px;
+}
+.form{
+  border-radius: 2px;
+  padding: 20px 30px;
+  font-size: 14px;
+  width: 350px;
+  margin: 20px 250px 0 35px;
+  float: left;
+}
+input{
+  width: 100%;
+  height: 35px;
+  margin-top: 5px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px;
+}
+input[type=button0]{
+  background-color: #123456;
+  border: 1px solid white;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  width: 49%;
+}
+#logindiv{
+  padding-left: 50%;
+  padding-top: 25%;
+  opacity: 0.92;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%
+  width: 100%;
+  background-color: white;
+  display: none;
+}
+#login{
+  width: 350px;
+  margin: 0px;
+  background-color: white;
+  position: relative;
+  border: 5px solid rgb(90, 158, 181);
+}
+.img{
+  float: right;
+  margin-top: -35px;
+  margin-right: -37px;
+  cursor: crosshair;
+}
+#login{
+  left: 50%;
+  top: 50%;
+  margin-left: -210px;
+  margin-top: -158px;
+}
