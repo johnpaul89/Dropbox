@@ -89,8 +89,69 @@ h4{
   color: lightblue;
   padding-left: 50px;
 }
-.fa-file{
-  font-size: 48px;
+.fa-file-text-o{
+  font-size: 36px;
   color: lightblue;
-  padding-left: 50px;
+  padding-left: 25px;
+}
+.fa-bell{
+  font-size: 18px;
+  color: black;
+  padding-left: 100px;
+}
+.icon{
+  font-size: 18px;
+  color: white;
+  padding-left: 5px;
+}
+.fa-folder{
+  font-size: 36px;
+  color: darkblue;
+  padding-left: 25px;
+}
+.fa-delete{
+  font-size: 36px;
+  color: darkblue;
+  padding-left: 25px;
+}
+.fa-photo{
+  font-size: 36px;
+  color: lightblue;
+  padding-left: 25px;
+}
+.ico{
+  font-size: 36px;
+  color: lightblue;
+  padding-left: 25px;
+}
+.icons{
+  font-size: 36px;
+  color: darkblue;
+  padding-left: 25px
+}
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 7px 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.danger {
+    border-color: #f44336;
+    color: red
+}
+
+.danger:hover {
+    background: #f44336;
+    color: white;
+}
+.imagescol{
+  padding-top: 20px;
+}
+img{
+  height: 225px;
+  width: 225px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
