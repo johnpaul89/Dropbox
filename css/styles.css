@@ -147,11 +147,44 @@ h4{
     color: white;
 }
 .imagescol{
-  padding-top: 20px;
+  padding-top: 30px;
 }
 img{
-  height: 225px;
-  width: 225px;
+  height: 245px;
+  width: 245px;
   padding-left: 5px;
   padding-right: 5px;
+}
+.cont{
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 17px;
+  right: 17px;
+  height: 245px;
+  width: 255px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: grey;
+}
+.cont:hover .overlay {
+  opacity: 0.7;
+}
+.icon-overlay{
+  color: white;
+  font-size: 75px;
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+  text-align: center;
+}
+.fa-check-circle:hover{
+  color: #eee;
 }
