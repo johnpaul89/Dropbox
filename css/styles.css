@@ -77,8 +77,8 @@ input[type=button]{
   width: 100%;
 }
 .aside{
-  background-color: #191970;
-  height: 100%;
+  background-color: #000033;
+  height: 1300px;
   color: white;
 }
 h4{
@@ -86,13 +86,16 @@ h4{
 }
 .fa-dropbox{
   font-size: 48px;
-  color: lightblue;
+  color: blue;
   padding-left: 50px;
 }
 .fa-file-text-o{
   font-size: 36px;
-  color: lightblue;
+  color: white;
   padding-left: 25px;
+}
+.side{
+  color: blue;
 }
 .fa-bell{
   font-size: 18px;
@@ -121,7 +124,7 @@ h4{
 }
 .ico{
   font-size: 36px;
-  color: lightblue;
+  color: white;
   padding-left: 25px;
 }
 .icons{
@@ -138,8 +141,8 @@ h4{
     cursor: pointer;
 }
 .danger {
-    border-color: #f44336;
-    color: red
+    border-color: #000019;
+    color: #000019;
 }
 
 .danger:hover {
@@ -148,6 +151,12 @@ h4{
 }
 .imagescol{
   padding-top: 30px;
+}
+.img-responsive{
+  height: 245px;
+  width: 245px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 img{
   height: 245px;
@@ -165,9 +174,9 @@ img{
   top: 0;
   bottom: 0;
   left: 17px;
-  right: 17px;
+  right: 0;
   height: 245px;
-  width: 255px;
+  width: 245px;
   opacity: 0;
   transition: .3s ease;
   background-color: grey;
@@ -177,14 +186,14 @@ img{
 }
 .icon-overlay{
   color: white;
-  font-size: 75px;
+  font-size: 45px;
   position: absolute;
-  top: 15%;
+  top: 13%;
   left: 85%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
   text-align: center;
 }
 .fa-check-circle:hover{
-  color: #eee;
+  color: red;
 }

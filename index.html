@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dropbox</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -15,7 +16,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-2 aside">
+        <div class="col-md-2 aside">
           <i class="fa fa-dropbox"></i> <br> <br> <br>
           <a href=""  <i class="fa fa-file-text-o"> <span class="icon">Files</span>  </i></a> <br> <br>
           <a href=""  <i class="material-icons ico">photo </i></a> <span class="icon">Photos</span><br> <br>
@@ -23,35 +24,40 @@
             <a href="" <i class="material-icons ico">link </i> </a><span class="icon">Links</span><br> <br>
             <a href="" <i class="material-icons ico">event </i></a> <span class="icon">Events</span><br> <br>
             <a href="" <i class="material-icons ico">star </i></a> <span class="icon">Getting Started</span>
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-          <h3>padding</h3>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="30" style="width:50%">
+                15/30 GB
+              </div>
+            </div>
+            <button class="btn danger">&#8657; Upgrade Account</button>
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
 
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
               <input type="text" name="search" placeholder="Search.."> <br><br>
               <h2>Photos</h2> <br>
-              <i class="fa fa-file-text-o"></i> <i class="fa fa-folder"></i> <i class="fa fa-file-text-o"></i> <i class="material-icons icons">delete</i>
+              <i class="fa fa-file-text-o side"></i> <i class="fa fa-folder"></i> <i class="fa fa-file-text-o side"></i> <i class="material-icons icons">delete</i>
               <br>
               <button class="btn danger">Upload</button>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
               <div class="row">
-              <div class="col-sm-4">
+              <div class="col-md-4">
               <p><i class="fa fa-bell"></i></p>
             </div>
-            <div class="col-sm-7">
+            <div class="col-md-7">
               <h4 id="log"></h4>
               <div id="show-login">
                 <h4> </h4>
                 <h4> <span class="last-name">  </span> </h4>
-              </div> <br><br><br><br><br>
+              </div> <br><br><br><br><br><br><br>
               <button class="btn danger">Name</button>
                <button class="btn danger">Size</button>
                <button class="btn danger">MOdified</button>
             </div>
-            <div class="col-sm-1">
+            <div class="col-md-1">
               <h4>&#8681;</h4>
             </div>
           </div>
@@ -61,10 +67,10 @@
   <div class="row imagescol">
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/anete-lusina-609864-unsplash.jpg" class="image" alt="">
+      <img src="images/anete-lusina-609864-unsplash.jpg" class="image img-responsive" alt="">
       <h3>Girl coding.jpg</h3>
       <h3>3 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -74,10 +80,10 @@
 
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/gbarkz-505702-unsplash.jpg" class="image" alt="">
+      <img src="images/gbarkz-505702-unsplash.jpg" class="image img-responsive" alt="">
       <h3>Walking Down stairs.jpg</h3>
       <h3>3 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -87,10 +93,10 @@
 
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/toa-heftiba-518020-unsplash.jpg" class="image" alt="">
+      <img src="images/toa-heftiba-518020-unsplash.jpg" class="image img-responsive" alt="">
       <h3>Coffee and journal.jpg</h3>
       <h3>2.7 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -100,10 +106,10 @@
 
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/chase-clark-509092-unsplash.jpg" class="image" alt="">
+      <img src="images/chase-clark-509092-unsplash.jpg" class="image img-responsive" alt="">
       <h3>Play chess.jpg</h3>
       <h3>3 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -115,10 +121,10 @@
   <div class="row imagescol">
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/kuan-fang-254086-unsplash.jpg" class="image" alt="">
+      <img src="images/kuan-fang-254086-unsplash.jpg " class="image img-responsive" alt="">
       <h3>Girl photographing.jpg</h3>
       <h3>5 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -127,11 +133,11 @@
   </div>
 
   <div class="cont">
-   <div class="col-md-3">
-      <img src="images/tom-pumford-254867-unsplash.jpg" class="image" alt="">
+   <div class="col-md-3 ">
+      <img src="images/tom-pumford-254867-unsplash.jpg" class="image img-responsive" alt="">
       <h3>Tears of joy.jpg</h3>
       <h3>1.7 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -141,10 +147,10 @@
 
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/emre-gencer-228223-unsplash.jpg" class="image" alt="">
+      <img src="images/emre-gencer-228223-unsplash.jpg" class="image img-responsive" alt="">
       <h3>Cat.jpg</h3>
       <h3>2.2 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -154,10 +160,10 @@
 
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/neonbrand-262805-unsplash.jpg" class="image" alt="">
+      <img src="images/neonbrand-262805-unsplash.jpg" class="image img-responsive" alt="">
       <h3>Cycling.jpg</h3>
       <h3>3 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -169,10 +175,10 @@
   <div class="row imagescol">
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/tyler-nix-488905-unsplash.jpg" class="image" alt="">
+      <img src="images/tyler-nix-488905-unsplash.jpg" class="image img-responsive" alt="">
       <h3>Street photography,jpg</h3>
       <h3>1.8 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -182,10 +188,10 @@
 
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/frankie-38297-unsplash.jpg" class="image" alt="">
+      <img src="images/frankie-38297-unsplash.jpg" class="image img-responsive" alt="">
       <h3>java coffee.jpg</h3>
       <h3>5.5 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -195,10 +201,10 @@
 
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/rawpixel-653764-unsplash.jpg" class="image" alt="">
+      <img src="images/rawpixel-653764-unsplash.jpg" class="image img-responsive" alt="">
       <h3>Coding psyche.jpg</h3>
       <h3>4.2 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
@@ -208,10 +214,10 @@
 
   <div class="cont">
    <div class="col-md-3">
-      <img src="images/annie-spratt-648653-unsplash.jpg" class="image" alt="">
+      <img src="images/annie-spratt-648653-unsplash.jpg" class="image img-responsive" alt="">
       <h3>brown.jpg</h3>
       <h3>10.1 mb</h3>
-     <div class="overlay">
+     <div class="overlay img-responsive">
        <a href="#" class="icon-overlay" title="Select image">
          <i class="fa fa-check-circle"></i>
        </a>
