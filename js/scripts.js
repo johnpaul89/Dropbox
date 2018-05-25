@@ -5,7 +5,7 @@ function Log(first, last) {
 }
 
 $(document).ready(function(){
-  setTimeout(popup, 2000);
+  setTimeout(popup, 100);
   function popup() {
   $("#logindiv").css("display", "block");
   }

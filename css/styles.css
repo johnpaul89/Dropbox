@@ -45,7 +45,7 @@ input[type=button]{
   left: 0px;
   height: 100%
   width: 100%;
-  background-color: white;
+
   display: none;
 }
 #login{
@@ -196,4 +196,10 @@ img{
 }
 .fa-check-circle:hover{
   color: red;
+}
+.pad{
+  padding-bottom: 10px;
+}
+.col-md-9{
+  padding-left: 25px;
 }
