@@ -1,12 +1,12 @@
 # Dropbox
 
-#### This is a Dropbox Clone on how the Dropbox looks,, (Friday, May 25th 2018)
+#### This is a Dropbox Clone on how the Dropbox looks like. (Friday, May 25th 2018)
 
-#### By _**{JohnPaul Gitata}**_
+#### By _**JohnPaul Gitata**_
 
 ## Description
 
-_{ This page allows the user to type in the login information which will be stored in an object and the email displayed later when the user clicks on the name in the object. It also allows the user to select an image which will be shown on the tick in an image. }_
+_ This page allows the user to type in the login information which will be stored in an object and the email displayed later when the user clicks on the name in the object. It also allows the user to select an image which will be shown on the tick in an image. _
 
 ## Setup/Installation Requirements
 
@@ -18,8 +18,8 @@ _{ This page allows the user to type in the login information which will be stor
 
 ## Known Bugs
 
-_{ According to the internet speed,, sometimes the login popup may fail,, please make sure to refresh your browser till the login modal to popup.
-  Please make sure to contact us and give us the feedback. We highly appreciate feedback. }_
+_ According to the internet speed,, sometimes the login popup may fail,, please make sure to refresh your browser till the login modal to popup.
+  Please make sure to contact us and give us the feedback. We highly appreciate feedback. _
 
 ## Technologies Used
 

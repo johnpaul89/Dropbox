@@ -4,6 +4,7 @@ function Log(first, last) {
   this.lastName = last;
 }
 
+//user interface
 $(document).ready(function(){
   setTimeout(popup, 100);
   function popup() {
