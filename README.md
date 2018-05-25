@@ -6,7 +6,7 @@
 
 ## Description
 
-_ This page allows the user to type in the login information which will be stored in an object and the email displayed later when the user clicks on the name in the object. It also allows the user to select an image which will be shown on the tick in an image. _
+This page allows the user to type in the **login** information which will be stored in an **object** and the email displayed later when the user clicks on the name in the object. It also allows the user to **select** an image which will be shown on the **tick** in an image.
 
 ## Setup/Installation Requirements
 
@@ -18,8 +18,8 @@ _ This page allows the user to type in the login information which will be store
 
 ## Known Bugs
 
-_ According to the internet speed,, sometimes the login popup may fail,, please make sure to refresh your browser till the login modal to popup.
-  Please make sure to contact us and give us the feedback. We highly appreciate feedback. _
+_ According to the internet speed,, sometimes the **login popup may fail**,, please make sure to **refresh** your browser till the login modal to popup.
+  _Please make sure to contact us and give us  **feedback.** We highly appreciate feedback._
 
 ## Technologies Used
 
@@ -31,7 +31,7 @@ _ According to the internet speed,, sometimes the login popup may fail,, please 
 
 ## Support and contact details
 
-Contact me via email johnpaulgitata@gmail.com or at GITHUB search for johnpaul89.
+Contact me via email _johnpaulgitata@gmail.com_ or at GITHUB search for _johnpaul89._
 
 ### License
 
